@@ -51,6 +51,10 @@
    ```
    yarn prisma generate
    ```
-  
+  **3. Start project:**
+  - Start:
+    ```
+    yarn start
+    ```
 
   
