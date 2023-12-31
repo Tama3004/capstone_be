@@ -22,7 +22,17 @@
    yarn prisma init
    ```
    - Edit file ".env":
-   
-[   https://www.prisma.io/docs/static/a3179ecce1bf20faddeb7f8c02fb2251/42cbc/mysql-connection-string.png
-]
+   ![alt text](https://www.prisma.io/docs/static/a3179ecce1bf20faddeb7f8c02fb2251/42cbc/mysql-connection-string.png)
+   - Edit schema.prisma:
+   ```
+   generator client {
+   provider = "prisma-client-js"
+  }
+  datasource db {
+    provider = "mysql"
+    url      = env("DATABASE_URL")
+  }
+   ```
+  
+
   
