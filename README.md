@@ -48,13 +48,22 @@
      ```
 
    - Generate:
-   ```
-   yarn prisma generate
-   ```
-  **3. Start project:**
-  - Start:
-    ```
-    yarn start
-    ```
+ ```
+ yarn prisma generate
+ ```
+
+**3. Start project:**
+   - Start:
+ ```
+ yarn start
+ ```
+
+**Usage**
+--
+- Using Postman API Platform to show method:
+  > Import file "Capstone_ExpressJS.postman_collection.json" to Postman.
+
+
+  
 
   
